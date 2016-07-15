@@ -1,0 +1,16 @@
+# The scripts developed in this project rely on external resources that need to be installed on a Linux machine 
+# before attempting to execute the pipeline. These programs are listed below along with the links for their download
+# and references to their creators:
+
+## External programs:
+bcftools (experimental version needed): http://pd3.github.io/bcftools/. Danecek P., Schiffels S., Durbin R. Multiallelic calling model in bcftools (-m) 
+tabix, bgzip: http://www.htslib.org/download/ [HTSLIB]. Li H. et al. The Sequence alignment/map (SAM) format and SAMtools. Bioinformatics, 25, 2078-9. 
+bwtool: https://github.com/CRG-Barcelona/bwtool/wiki. Pohl A, Beato M. bwtool: a tool for bigWig files. Bioinformatics. 2014;30(11):1618-9.
+WigToBigWig: http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/wigToBigWig. UCSC
+# Please note that WigToBigWig requires a file containing chromosome sizes, which can be generated with:
+fetchChromSizes: http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/fetchChromSizes. UCSC.
+
+## R packages:
+PopGenome: install.packages(PopGenome). Pfeifer B, Wittelsbürger U, Ramos-onsins SE, Lercher MJ. PopGenome: an efficient Swiss army knife for population genomic analyses in R. Mol Biol Evol. 2014;31(7):1929-36.
+GenomicRanges: biocLite("GenomicRanges"). Lawrence M, Huber W, Pagès H, Aboyoun P, Carlson M, Gentleman R, Morgan M and Carey V (2013). “Software for Computing and Annotating Genomic Ranges.” PLoS Computational Biology, 9
+
